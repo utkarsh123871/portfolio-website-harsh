@@ -1,0 +1,145 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color and font styles to the entire page */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+  }
+  
+  /* Style the main content container */
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Style section headers with hover effect */
+  h2 {
+    font-size: 36px;
+    color: #007acc;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  h2:hover {
+    color: #005d99;
+  }
+  
+  /* Style the experience and education entries */
+  .job, .school {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job h3, .school h3 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .job p, .school p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Style the skills and certifications sections */
+  .skills, .certifications {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills h2, .certifications h2 {
+    font-size: 36px;
+    color: #007acc;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .skills ul, .certifications ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills li, .certifications li {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .skills li:hover, .certifications li:hover {
+    background-color: #005d99;
+  }
+  
+  /* Style the contact section */
+  .contact {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    color: #007acc;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .contact p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Add animations and additional features as needed */
+  
